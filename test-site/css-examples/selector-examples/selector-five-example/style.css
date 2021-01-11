@@ -1,0 +1,18 @@
+a {
+    border: 5px solid grey;
+}
+
+a[href^="https"] {
+    border-color: green;
+}
+/* target <a> s that href values START with "https" */
+
+a[href*="contact"] {
+    border-color: orange;
+}
+/* target <a> s that CONTAIN "contact" value in their href attributes */
+
+a[title] {
+    border-color: pink;
+}
+/* target <a> s that have title attribute */

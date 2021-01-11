@@ -1,0 +1,15 @@
+#special {
+    background-color: yellow;
+}
+
+.alert {
+    border: 1px grey solid;
+}
+
+.alert.stop {
+    background-color: red;
+}
+
+.alert.go {
+    background-color: green;
+}

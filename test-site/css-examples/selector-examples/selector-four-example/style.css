@@ -1,0 +1,10 @@
+h2 + p {
+    color: red;
+}
+/* select paragraphs that come after h2 tag directly (siblings) */
+
+ul.list > li {
+    border-bottom: 1px solid grey;
+    list-style-type: none;
+}
+/* select li s that are a direct child of the ul with a class of list */

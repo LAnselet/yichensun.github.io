@@ -1,0 +1,26 @@
+a {
+    color: orange;
+} 
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container > :first-child {
+    font-size: 150%;
+}
+
+/* First element inside the container */
+.container > :first-child::first-line {
+    color: red;
+}
+
+/* First Line of The first element inside container */
+table tr:nth-child(even) {
+    background-color: #333;
+    color: white;
+}

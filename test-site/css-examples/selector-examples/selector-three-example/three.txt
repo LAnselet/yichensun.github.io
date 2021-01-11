@@ -1,0 +1,3 @@
+Style links, making the link-state orange, visited links green, and remove the underline on hover.
+Make the first element inside the container font-size: 150% and the first line of that element red.
+Stripe every other row in the table by selecting these rows and giving them a background color of #333 and foreground of white.
